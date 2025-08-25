@@ -678,7 +678,6 @@ Banner Style
 
 .main-banner .caption h2:after {
   position: absolute;
-  background-image: url(../images/caption-dec.png);
   width: 202px;
   height: 12px;
   content: '';
@@ -1670,4 +1669,38 @@ body {
 
 @media (max-width: 1200px) {
   
+}
+
+.logo h2 {
+  color: white;
+  width: 500px;
+}
+
+.logo:hover h2 {
+  color: #ee626b;
+  transition: color 1s ease;
+}
+
+
+.link {
+  color: white;
+  font-weight: bold;
+  transition: color 1s ease;
+}
+
+.link2 {
+  font-style: oblique;
+  color: #4a4a4a;
+  transition: color 1s ease;
+}
+
+/* #ee626b */
+.link:hover {
+  color: #ee626b;
+  font-weight: bold;
+}
+
+.link2:hover {
+  color: #ee626b;
+  font-weight: bold;
 }

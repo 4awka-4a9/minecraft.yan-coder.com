@@ -285,7 +285,7 @@ Header Style
 */
 
 .background-header {
-  background-color: #0071f8 !important;
+  background-color: rgba(53, 76, 219, 0.42) !important;
   border-radius: 0px 0px 25px 25px;
   height: 80px!important;
   position: fixed!important;
@@ -651,7 +651,7 @@ Banner Style
 */
 
 .main-banner {
-  background-image: url(../images/banner-bg.jpg);
+  background-image: url(../images/gribs.png);
   border-radius: 0px 0px 150px 150px;
   background-position: center bottom;
   background-repeat: no-repeat;
@@ -1018,7 +1018,7 @@ CTA Style
 }
 
 .cta::after {
-  background-image: url(../images/cta-bg.jpg);
+  background-image: url(../images/grib2.png);
   max-width: 550px;
   max-height: 510px;
   width: 100%;
@@ -1115,7 +1115,7 @@ footer {
   background-color: #0071f8;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/footer-bg.jpg);
+  background-color: rgba(53, 76, 219, 0.42);
   min-height: 150px;
   border-radius: 150px 150px 0px 0px;
 }
@@ -1147,7 +1147,7 @@ Page Header Style
 */
 
 .page-heading {
-  background-image: url(../images/page-heading-bg.jpg);
+  background-color: rgba(53, 76, 219, 0.42);
   border-radius: 0px 0px 150px 150px;
   background-position: center bottom;
   background-repeat: no-repeat;
@@ -1682,25 +1682,56 @@ body {
 }
 
 
-.link {
-  color: white;
-  font-weight: bold;
-  transition: color 1s ease;
-}
 
 .link2 {
-  font-style: oblique;
-  color: #4a4a4a;
+  color: black;
   transition: color 1s ease;
 }
 
 /* #ee626b */
-.link:hover {
+
+.link2:hover {
   color: #ee626b;
   font-weight: bold;
 }
 
-.link2:hover {
+.link3 {
+  color: black;
+  font-weight: bold;
+  transition: color 1s ease;
+}
+
+.link3:hover {
   color: #ee626b;
+  font-weight: bold;
+}
+
+.more-info {
+  margin-top: 60px;
+}
+
+body {
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+body.loaded {
+  opacity: 1;
+}
+
+body.leaving {
+  opacity: 0; 
+}
+
+.header-text-main {
+  background-color: rgba(53, 76, 219, 0.42);
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.header-text-main h6, h2, p {
+  color: black !important;
+}
+
+.header-text-main p {
   font-weight: bold;
 }

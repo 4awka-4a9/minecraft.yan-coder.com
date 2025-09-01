@@ -1673,7 +1673,7 @@ body {
 
 .logo h2 {
   color: white;
-  width: 450px;
+  width: 100%;
 }
 
 .logo:hover h2 {
@@ -1734,4 +1734,10 @@ body.leaving {
 
 .header-text-main p {
   font-weight: bold;
+}
+
+.informer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
 }
